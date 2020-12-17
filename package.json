@@ -1,0 +1,18 @@
+{
+  "name": "basic-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Explorer-Labs/basic-template.git",
+  "license": "MIT",
+  "scripts": {
+    "build:css": "postcss styles/styles.css -o styles/output/tailwind.css"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.0.4",
+    "postcss": "^8.1.14",
+    "tailwindcss": "^2.0.1"
+  },
+  "devDependencies": {
+    "postcss-cli": "^8.3.0"
+  }
+}
